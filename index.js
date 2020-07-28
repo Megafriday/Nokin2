@@ -20,8 +20,8 @@ const colors = [
 	"green"
 ];
 
-for (let j = 0; j < 8; j++) {
-	for (let i = 0; i < 10; i++) {
+for (let j = 0; j < 8; j++) { // 行
+	for (let i = 0; i < 10; i++) { // 列
 		ctx.fillStyle = colors[(i + j) % colors.length];
 		const positionX = x + i * (sizeX + 4);
 		const positionY = y + j * (sizeY + 4) + i * 10;
