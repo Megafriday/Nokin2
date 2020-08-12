@@ -1,5 +1,6 @@
 # Nokin2
 脳筋メソッド２
+フラッグ
 
 ## URL
 https://megafriday.github.io/Nokin2/
